@@ -54,7 +54,7 @@
     },
     {
       "team": 4646,
-      /* Comp robot */
+      /* 2025 comp robot */
       "robot_name": "blackbeard",
       "data": {
         "calibration": [
@@ -73,9 +73,9 @@
     },
     {
       "team": 4646,
-      /* 2026 alpha robot */
-      /* 15 was the exposure used at Winona, 60 was the exposure used in the shop*/ 
-      "robot_name": "alpha2026",
+      /* 2026 comp robot */
+      /* 15 was the exposure used at Winona, 60 was the exposure used in the shop */ 
+      "robot_name": "blackfang",
       "data": {
         "calibration": [
           {% include 'frc/vision/constants/calibration_orin-4646-0_cam-26-12_2026-03-05_16-30-28.json' %},
