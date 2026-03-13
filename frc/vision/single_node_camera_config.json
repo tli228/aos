@@ -585,7 +585,7 @@
     },
     {
       "name": "yolo",
-      "autostart": true,
+      "autostart": false,
       /*"args": ["--engine_path=/home/pi/bin/best416x.engine", "--nodie_on_malloc"],*/
       /*"args": ["--engine_path=/home/pi/bin/reexported29.engine", "--nodie_on_malloc", "--skip=0"],*/
       "args": ["--engine_path=/home/pi/bin/with_auto.engine", "--nodie_on_malloc", "--skip=0"],
