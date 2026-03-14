@@ -18,7 +18,7 @@ class SimulatedConstantsSender {
       std::unique_ptr<aos::EventLoop> event_loop =
           factory->MakeEventLoop("constants_sender", node);
       frc::constants::NameConstantSender<CameraConstants, CameraConstantsList>
-          sender(event_loop.get(), constants_path, team, "alpha2026", // Wildcard: This is hardcoded
+          sender(event_loop.get(), constants_path, team, "blackfang", // Wildcard: This is hardcoded
                  "/constants");
     }
   }
