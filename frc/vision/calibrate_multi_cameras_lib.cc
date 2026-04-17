@@ -58,7 +58,7 @@ NodeList CreateNodeList() {
   result.cameras.push_back({.node_name = "orin", .camera_number = 2});
   result.cameras.push_back({.node_name = "orin", .camera_number = 3});
 
-  result.fixed_camera = 1;
+  result.fixed_camera = 3;
 
   return result;
 }
